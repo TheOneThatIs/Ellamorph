@@ -1,0 +1,34 @@
+
+.Block {
+    width: 100%;
+    height: 20rem;
+    margin: 1rem;
+    display: block;
+    position: relative;
+}
+
+.BlockLeft {
+    margin: 1rem;
+    display: inline-block;
+    position: absolute;
+    width: 75%;
+    left: 1rem;
+}
+.BlockRight { /* Text positioning isn't the best on the right aligned elements. Sadly I know not how to make it better */
+    margin: 1rem;
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    right: 1rem;
+}
+
+.TextRightAligned {
+    text-align: right;
+    right: 2rem;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    width: 75%;
+}
